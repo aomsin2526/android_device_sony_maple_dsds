@@ -1195,10 +1195,8 @@ vendor/bin/tad|0fe3daaa4a4dace32944ebb8daf52fdffdcfac8a
 
 # THERMAL
 vendor/bin/hw/vendor.semc.hardware.thermal@1.0-service
-vendor/bin/thermal-engine
 vendor/etc/change.cfg
 vendor/etc/init/vendor.semc.hardware.thermal@1.0-service.rc
-vendor/etc/thermal-engine.conf
 vendor/lib/libthermal_engine.so
 -vendor/lib/libthermalclient.so
 vendor/lib/hw/thermal.somc.so
