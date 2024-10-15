@@ -348,8 +348,6 @@ vendor/lib64/libta.so
 
 # THERMAL
 vendor/bin/hw/vendor.semc.hardware.thermal@1.0-service
-vendor/bin/thermal-engine
-vendor/etc/thermal-engine.conf
 vendor/lib64/hw/thermal.somc.so
 vendor/lib64/libthermal_engine.so
 vendor/lib64/libthermalclient.so
