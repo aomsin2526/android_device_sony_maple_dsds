@@ -280,7 +280,7 @@ vendor/lib64/libvpplibrary.so;DISABLE_DEPS
 vendor/etc/libnfc-nci.conf
 vendor/etc/libnfc-nxp-octopus.conf
 vendor/etc/libnfc-nxp.conf
-vendor/lib/libpn553_fw.so;DISABLE_DEPS
+vendor/lib/libpn553_fw.so:vendor/lib64/libpn553_fw.so;DISABLE_DEPS
 
 # QMI
 vendor/bin/mlog_qmi_service;DISABLE_DEPS
