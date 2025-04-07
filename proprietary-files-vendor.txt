@@ -331,8 +331,8 @@ vendor/lib64/libsuntory.so
 vendor/bin/sensors.qti
 vendor/etc/sensors/hals.conf
 vendor/etc/sensors/sensor_def_somc_product.conf
-vendor/lib64/libsensor1.so
-vendor/lib64/libsensor_reg.so
+vendor/lib64/libsensor1.so;MODULE_SUFFIX=_vendor
+vendor/lib64/libsensor_reg.so;MODULE_SUFFIX=_vendor
 vendor/lib64/libsns_low_lat_stream_stub.so
 vendor/lib64/sensor_calibrate.so
 vendor/lib64/sensors.finger-pickup.so
