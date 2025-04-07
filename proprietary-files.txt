@@ -5,18 +5,18 @@
 lib/vendor.qti.voiceprint@1.0.so:vendor/lib/vendor.qti.voiceprint@1.0.so;DISABLE_DEPS
 
 # CAMERA - add a copy to /vendor
-lib/vendor.somc.hardware.camera.cacao@1.0.so:vendor/lib/vendor.somc.hardware.camera.cacao@1.0.so;DISABLE_DEPS
-lib/vendor.somc.hardware.camera.cacao@2.0.so:vendor/lib/vendor.somc.hardware.camera.cacao@2.0.so;DISABLE_DEPS
-lib/vendor.somc.hardware.camera.cacao@3.0.so:vendor/lib/vendor.somc.hardware.camera.cacao@3.0.so;DISABLE_DEPS
-lib/vendor.somc.hardware.camera.cacao@3.1.so:vendor/lib/vendor.somc.hardware.camera.cacao@3.1.so;DISABLE_DEPS
-lib/vendor.somc.hardware.camera.device@1.0.so:vendor/lib/vendor.somc.hardware.camera.device@1.0.so;DISABLE_DEPS
-lib/vendor.somc.hardware.camera.provider@1.0.so:vendor/lib/vendor.somc.hardware.camera.provider@1.0.so;DISABLE_DEPS
+lib/vendor.somc.hardware.camera.cacao@1.0.so:vendor/lib/vendor.somc.hardware.camera.cacao@1.0.so;DISABLE_DEPS;MODULE_SUFFIX=_vendor
+lib/vendor.somc.hardware.camera.cacao@2.0.so:vendor/lib/vendor.somc.hardware.camera.cacao@2.0.so;DISABLE_DEPS;MODULE_SUFFIX=_vendor
+lib/vendor.somc.hardware.camera.cacao@3.0.so:vendor/lib/vendor.somc.hardware.camera.cacao@3.0.so;DISABLE_DEPS;MODULE_SUFFIX=_vendor
+lib/vendor.somc.hardware.camera.cacao@3.1.so:vendor/lib/vendor.somc.hardware.camera.cacao@3.1.so;DISABLE_DEPS;MODULE_SUFFIX=_vendor
+lib/vendor.somc.hardware.camera.device@1.0.so:vendor/lib/vendor.somc.hardware.camera.device@1.0.so;DISABLE_DEPS;MODULE_SUFFIX=_vendor
+lib/vendor.somc.hardware.camera.provider@1.0.so:vendor/lib/vendor.somc.hardware.camera.provider@1.0.so;DISABLE_DEPS;MODULE_SUFFIX=_vendor
 
 # DISPLAY - add a copy to /vendor
-lib64/vendor.display.color@1.0.so:vendor/lib64/vendor.display.color@1.0.so;DISABLE_DEPS
-lib64/vendor.display.color@1.1.so:vendor/lib64/vendor.display.color@1.1.so;DISABLE_DEPS
-lib64/vendor.display.postproc@1.0.so:vendor/lib64/vendor.display.postproc@1.0.so;DISABLE_DEPS
-lib64/vendor.qti.hardware.qdutils_disp@1.0.so:vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0.so;DISABLE_DEPS
+lib64/vendor.display.color@1.0.so:vendor/lib64/vendor.display.color@1.0.so;DISABLE_DEPS;MODULE_SUFFIX=_vendor
+lib64/vendor.display.color@1.1.so:vendor/lib64/vendor.display.color@1.1.so;DISABLE_DEPS;MODULE_SUFFIX=_vendor
+lib64/vendor.display.postproc@1.0.so:vendor/lib64/vendor.display.postproc@1.0.so;DISABLE_DEPS;MODULE_SUFFIX=_vendor
+lib64/vendor.qti.hardware.qdutils_disp@1.0.so:vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0.so;DISABLE_DEPS;MODULE_SUFFIX=_vendor
 
 # DRM_FIRMWARE
 etc/firmware/tzwidevine.b00:vendor/firmware/tzwidevine.b00
@@ -112,8 +112,8 @@ etc/firmware/tztpm.b07:vendor/etc/firmware/tztpm.b07
 etc/firmware/tztpm.mdt:vendor/etc/firmware/tztpm.mdt
 
 # LIGHT - add a copy to /vendor
-lib/vendor.semc.hardware.light@1.0.so:vendor/lib/vendor.semc.hardware.light@1.0.so;DISABLE_DEPS
-lib64/vendor.semc.hardware.light@1.0.so:vendor/lib64/vendor.semc.hardware.light@1.0.so;DISABLE_DEPS
+lib/vendor.semc.hardware.light@1.0.so:vendor/lib/vendor.semc.hardware.light@1.0.so;DISABLE_DEPS;MODULE_SUFFIX=_vendor
+lib64/vendor.semc.hardware.light@1.0.so:vendor/lib64/vendor.semc.hardware.light@1.0.so;DISABLE_DEPS;MODULE_SUFFIX=_vendor
 
 # MODEM
 etc/customization/modem/amss_fs_empty.mbn
@@ -152,24 +152,24 @@ etc/customization/modem/amss_fsg_maple_dsds_tstar_tw_ims_tar.mbn
 etc/customization/modem/amss_fsg_maple_dsds_twm_tw_ims_tar.mbn
 
 # QSEECOMD - add a copy to /vendor
-lib64/vendor.qti.hardware.tui_comm@1.0.so:vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so;DISABLE_DEPS
+lib64/vendor.qti.hardware.tui_comm@1.0.so:vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so;DISABLE_DEPS;MODULE_SUFFIX=_vendor
 
 # QTI_ANT - add a copy to /vendor
-lib/com.qualcomm.qti.ant@1.0.so:vendor/lib/com.qualcomm.qti.ant@1.0.so;DISABLE_DEPS
-lib64/com.qualcomm.qti.ant@1.0.so:vendor/lib64/com.qualcomm.qti.ant@1.0.so;DISABLE_DEPS
+lib/com.qualcomm.qti.ant@1.0.so:vendor/lib/com.qualcomm.qti.ant@1.0.so;DISABLE_DEPS;MODULE_SUFFIX=_vendor
+lib64/com.qualcomm.qti.ant@1.0.so:vendor/lib64/com.qualcomm.qti.ant@1.0.so;DISABLE_DEPS;MODULE_SUFFIX=_vendor
 
 # QTI_DRM - add a copy to /vendor
-lib64/vendor.qti.hardware.qteeconnector@1.0.so:vendor/lib64/vendor.qti.hardware.qteeconnector@1.0.so;DISABLE_DEPS
+lib64/vendor.qti.hardware.qteeconnector@1.0.so:vendor/lib64/vendor.qti.hardware.qteeconnector@1.0.so;DISABLE_DEPS;MODULE_SUFFIX=_vendor
 
 # QTI_ESEPOWERMANAGER - add a copy to /vendor
-lib64/vendor.qti.esepowermanager@1.0.so:vendor/lib64/vendor.qti.esepowermanager@1.0.so;DISABLE_DEPS
+lib64/vendor.qti.esepowermanager@1.0.so:vendor/lib64/vendor.qti.esepowermanager@1.0.so;DISABLE_DEPS;MODULE_SUFFIX=_vendor
 
 # SEMC_IDD - add a copy to /vendor
-lib/vendor.semc.system.idd@1.0.so:vendor/lib/vendor.semc.system.idd@1.0.so;DISABLE_DEPS
-lib64/vendor.semc.system.idd@1.0.so:vendor/lib64/vendor.semc.system.idd@1.0.so;DISABLE_DEPS
+lib/vendor.semc.system.idd@1.0.so:vendor/lib/vendor.semc.system.idd@1.0.so;DISABLE_DEPS;MODULE_SUFFIX=_vendor
+lib64/vendor.semc.system.idd@1.0.so:vendor/lib64/vendor.semc.system.idd@1.0.so;DISABLE_DEPS;MODULE_SUFFIX=_vendor
 
 # SEMC_SECD - add a copy to /vendor
-lib64/vendor.somc.hardware.security.secd@1.0.so:vendor/lib64/vendor.somc.hardware.security.secd@1.0.so;DISABLE_DEPS
+lib64/vendor.somc.hardware.security.secd@1.0.so:vendor/lib64/vendor.somc.hardware.security.secd@1.0.so;DISABLE_DEPS;MODULE_SUFFIX=_vendor
 
 # SENSORS
 lib/libqmi_cci_system.so;DISABLE_DEPS
