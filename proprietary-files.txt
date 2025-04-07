@@ -2,21 +2,21 @@
 ## are from Xperia XZ Premium DSDS (47.2.A.10.107).
 
 # AUDIO_SOUNDTRIGGER
-lib/vendor.qti.voiceprint@1.0.so:vendor/lib/vendor.qti.voiceprint@1.0.so
+lib/vendor.qti.voiceprint@1.0.so:vendor/lib/vendor.qti.voiceprint@1.0.so;DISABLE_DEPS
 
 # CAMERA - add a copy to /vendor
-lib/vendor.somc.hardware.camera.cacao@1.0.so:vendor/lib/vendor.somc.hardware.camera.cacao@1.0.so
-lib/vendor.somc.hardware.camera.cacao@2.0.so:vendor/lib/vendor.somc.hardware.camera.cacao@2.0.so
-lib/vendor.somc.hardware.camera.cacao@3.0.so:vendor/lib/vendor.somc.hardware.camera.cacao@3.0.so
-lib/vendor.somc.hardware.camera.cacao@3.1.so:vendor/lib/vendor.somc.hardware.camera.cacao@3.1.so
-lib/vendor.somc.hardware.camera.device@1.0.so:vendor/lib/vendor.somc.hardware.camera.device@1.0.so
-lib/vendor.somc.hardware.camera.provider@1.0.so:vendor/lib/vendor.somc.hardware.camera.provider@1.0.so
+lib/vendor.somc.hardware.camera.cacao@1.0.so:vendor/lib/vendor.somc.hardware.camera.cacao@1.0.so;DISABLE_DEPS
+lib/vendor.somc.hardware.camera.cacao@2.0.so:vendor/lib/vendor.somc.hardware.camera.cacao@2.0.so;DISABLE_DEPS
+lib/vendor.somc.hardware.camera.cacao@3.0.so:vendor/lib/vendor.somc.hardware.camera.cacao@3.0.so;DISABLE_DEPS
+lib/vendor.somc.hardware.camera.cacao@3.1.so:vendor/lib/vendor.somc.hardware.camera.cacao@3.1.so;DISABLE_DEPS
+lib/vendor.somc.hardware.camera.device@1.0.so:vendor/lib/vendor.somc.hardware.camera.device@1.0.so;DISABLE_DEPS
+lib/vendor.somc.hardware.camera.provider@1.0.so:vendor/lib/vendor.somc.hardware.camera.provider@1.0.so;DISABLE_DEPS
 
 # DISPLAY - add a copy to /vendor
-lib64/vendor.display.color@1.0.so:vendor/lib64/vendor.display.color@1.0.so
-lib64/vendor.display.color@1.1.so:vendor/lib64/vendor.display.color@1.1.so
-lib64/vendor.display.postproc@1.0.so:vendor/lib64/vendor.display.postproc@1.0.so
-lib64/vendor.qti.hardware.qdutils_disp@1.0.so:vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0.so
+lib64/vendor.display.color@1.0.so:vendor/lib64/vendor.display.color@1.0.so;DISABLE_DEPS
+lib64/vendor.display.color@1.1.so:vendor/lib64/vendor.display.color@1.1.so;DISABLE_DEPS
+lib64/vendor.display.postproc@1.0.so:vendor/lib64/vendor.display.postproc@1.0.so;DISABLE_DEPS
+lib64/vendor.qti.hardware.qdutils_disp@1.0.so:vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0.so;DISABLE_DEPS
 
 # DRM_FIRMWARE
 etc/firmware/tzwidevine.b00:vendor/firmware/tzwidevine.b00
@@ -39,12 +39,12 @@ etc/firmware/tzwvcpybuf.b07:vendor/firmware/tzwvcpybuf.b07
 etc/firmware/tzwvcpybuf.mdt:vendor/firmware/tzwvcpybuf.mdt
 
 # DRM_HDCP
-lib/libhdcprx_module.so:vendor/lib/libhdcprx_module.so
-lib/libhdcptx_module.so:vendor/lib/libhdcptx_module.so
-lib/libstagefright_hdcp.so:vendor/lib/libstagefright_hdcp.so
-lib64/libhdcprx_module.so:vendor/lib64/libhdcprx_module.so
-lib64/libhdcptx_module.so:vendor/lib64/libhdcptx_module.so
-lib64/libstagefright_hdcp.so:vendor/lib64/libstagefright_hdcp.so
+lib/libhdcprx_module.so:vendor/lib/libhdcprx_module.so;DISABLE_DEPS
+lib/libhdcptx_module.so:vendor/lib/libhdcptx_module.so;DISABLE_DEPS
+lib/libstagefright_hdcp.so:vendor/lib/libstagefright_hdcp.so;DISABLE_DEPS
+lib64/libhdcprx_module.so:vendor/lib64/libhdcprx_module.so;DISABLE_DEPS
+lib64/libhdcptx_module.so:vendor/lib64/libhdcptx_module.so;DISABLE_DEPS
+lib64/libstagefright_hdcp.so:vendor/lib64/libstagefright_hdcp.so;DISABLE_DEPS
 
 # DRM_HDCP_FIRMWARE
 etc/firmware/tzhdcp.b00:vendor/firmware/tzhdcp.b00
@@ -73,7 +73,7 @@ etc/firmware/tzfingerprint.b07:vendor/firmware/tzfingerprint.b07
 etc/firmware/tzfingerprint.mdt:vendor/firmware/tzfingerprint.mdt
 
 # FINGERPRINT_EXTENSION
-lib64/com.fingerprints.extension@1.0.so:vendor/lib64/com.fingerprints.extension@1.0.so
+lib64/com.fingerprints.extension@1.0.so:vendor/lib64/com.fingerprints.extension@1.0.so;DISABLE_DEPS
 
 # FIRMWARE
 etc/firmware/cmnlib.b01
@@ -112,8 +112,8 @@ etc/firmware/tztpm.b07:vendor/etc/firmware/tztpm.b07
 etc/firmware/tztpm.mdt:vendor/etc/firmware/tztpm.mdt
 
 # LIGHT - add a copy to /vendor
-lib/vendor.semc.hardware.light@1.0.so:vendor/lib/vendor.semc.hardware.light@1.0.so
-lib64/vendor.semc.hardware.light@1.0.so:vendor/lib64/vendor.semc.hardware.light@1.0.so
+lib/vendor.semc.hardware.light@1.0.so:vendor/lib/vendor.semc.hardware.light@1.0.so;DISABLE_DEPS
+lib64/vendor.semc.hardware.light@1.0.so:vendor/lib64/vendor.semc.hardware.light@1.0.so;DISABLE_DEPS
 
 # MODEM
 etc/customization/modem/amss_fs_empty.mbn
@@ -152,38 +152,38 @@ etc/customization/modem/amss_fsg_maple_dsds_tstar_tw_ims_tar.mbn
 etc/customization/modem/amss_fsg_maple_dsds_twm_tw_ims_tar.mbn
 
 # QSEECOMD - add a copy to /vendor
-lib64/vendor.qti.hardware.tui_comm@1.0.so:vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so
+lib64/vendor.qti.hardware.tui_comm@1.0.so:vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so;DISABLE_DEPS
 
 # QTI_ANT - add a copy to /vendor
-lib/com.qualcomm.qti.ant@1.0.so:vendor/lib/com.qualcomm.qti.ant@1.0.so
-lib64/com.qualcomm.qti.ant@1.0.so:vendor/lib64/com.qualcomm.qti.ant@1.0.so
+lib/com.qualcomm.qti.ant@1.0.so:vendor/lib/com.qualcomm.qti.ant@1.0.so;DISABLE_DEPS
+lib64/com.qualcomm.qti.ant@1.0.so:vendor/lib64/com.qualcomm.qti.ant@1.0.so;DISABLE_DEPS
 
 # QTI_DRM - add a copy to /vendor
-lib64/vendor.qti.hardware.qteeconnector@1.0.so:vendor/lib64/vendor.qti.hardware.qteeconnector@1.0.so
+lib64/vendor.qti.hardware.qteeconnector@1.0.so:vendor/lib64/vendor.qti.hardware.qteeconnector@1.0.so;DISABLE_DEPS
 
 # QTI_ESEPOWERMANAGER - add a copy to /vendor
-lib64/vendor.qti.esepowermanager@1.0.so:vendor/lib64/vendor.qti.esepowermanager@1.0.so
+lib64/vendor.qti.esepowermanager@1.0.so:vendor/lib64/vendor.qti.esepowermanager@1.0.so;DISABLE_DEPS
 
 # SEMC_IDD - add a copy to /vendor
-lib/vendor.semc.system.idd@1.0.so:vendor/lib/vendor.semc.system.idd@1.0.so
-lib64/vendor.semc.system.idd@1.0.so:vendor/lib64/vendor.semc.system.idd@1.0.so
+lib/vendor.semc.system.idd@1.0.so:vendor/lib/vendor.semc.system.idd@1.0.so;DISABLE_DEPS
+lib64/vendor.semc.system.idd@1.0.so:vendor/lib64/vendor.semc.system.idd@1.0.so;DISABLE_DEPS
 
 # SEMC_SECD - add a copy to /vendor
-lib64/vendor.somc.hardware.security.secd@1.0.so:vendor/lib64/vendor.somc.hardware.security.secd@1.0.so
+lib64/vendor.somc.hardware.security.secd@1.0.so:vendor/lib64/vendor.somc.hardware.security.secd@1.0.so;DISABLE_DEPS
 
 # SENSORS
-lib/libqmi_cci_system.so
-lib64/libqmi_cci_system.so
-lib64/libsensor1.so
-lib64/libsensor_reg.so
-lib64/libsensor_test.so
+lib/libqmi_cci_system.so;DISABLE_DEPS
+lib64/libqmi_cci_system.so;DISABLE_DEPS
+lib64/libsensor1.so;DISABLE_DEPS
+lib64/libsensor_reg.so;DISABLE_DEPS
+lib64/libsensor_test.so;DISABLE_DEPS
 
 # THERMAL
-lib64/vendor.semc.hardware.thermal@1.0.so:vendor/lib64/vendor.semc.hardware.thermal@1.0.so
+lib64/vendor.semc.hardware.thermal@1.0.so:vendor/lib64/vendor.semc.hardware.thermal@1.0.so;DISABLE_DEPS
 
 # TOUCH
 somc/touch/images/big_touch.png:vendor/sony/touch/images/big_touch.png
 somc/touch/images/splash.png:vendor/sony/touch/images/splash.png
 
 # UDATEMISCTA
-bin/updatemiscta
+bin/updatemiscta;DISABLE_DEPS
