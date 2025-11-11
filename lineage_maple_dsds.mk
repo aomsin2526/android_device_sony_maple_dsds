@@ -18,6 +18,9 @@ TARGET_BOOTANIMATION_HALF_RES := true
 ### LINEAGE
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+# ADB
+WITH_ADB_INSECURE := true
+
 ## Device identifier. This must come after all inclusions
 PRODUCT_NAME := lineage_maple_dsds
 PRODUCT_DEVICE := maple_dsds
